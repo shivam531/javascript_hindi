@@ -37,6 +37,13 @@ let someNumber = 33
     let str3 = str1+str2 
     console.log (str3)
 
-    console.log("1" +2)
-    console.log(1+"2")
+    console.log("1" +2 +2)
+    console.log(1+"2" + "2")
 
+    console.log(+true)
+    console.log(+" ")
+
+    // link to study varibales
+
+// https://tc39.es/ecma262/#sec-abstract-operations
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
