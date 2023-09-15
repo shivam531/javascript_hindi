@@ -33,3 +33,26 @@ console.log("hellow World");
 console.log(typeof Id);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive)(copy of the element) ,
+let myname = "shivam"
+
+ let myname1 = myname
+ myname1 = "patel"
+
+ console.log(myname1);
+ console.log(myname);
+// Heap(Non-Primitive)(Refence of the elemnt)
+ let userOne={
+     email: "user@google.com",
+     upi: "user@pytm"
+ }
+
+ let userTwo= userOne
+
+ userTwo.email = "shivam@gmail.com"
+
+ console.log(userOne.email);
+console.log(userTwo.email);
