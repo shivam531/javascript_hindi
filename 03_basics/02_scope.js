@@ -9,3 +9,33 @@ const b = 20    //local scole is in side the block
 
 console.log(a);
 // console.log(b);
+
+
+function one (){
+    const username = "shivam"
+
+    function two() {
+           
+          const website = "youtube"
+          console.log(username);
+    }
+    // console.log(website);
+    // two()
+}
+
+// one()
+
+if(true){
+    const username = "Shivam"
+    if (username === "shivam"){
+        const website = " Youtube"
+        console.log(username + website);
+    }
+    // console.log(website)
+   
+}
+// console.log(username);
+
+// ++++++++++++++++++++++++++++intersing++++++++++++++++++++++
+   
+   
